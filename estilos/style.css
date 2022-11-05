@@ -197,6 +197,18 @@ padding-right: 150px;
   /* Large devices (desktops, 992px and up)*/
   @media (min-width: 992px) { 
 
+    nav{
+        padding: 0px 50px;
+    }
+    nav .menu-btn{
+        padding-top: 30px;
+        display: inline;
+        color: black;
+    }
+
+    nav .logo p{
+        font-size: 80px;
+    } 
 
 
     section div h1 {
@@ -229,22 +241,6 @@ padding-right: 150px;
 }
 
 
-.registrarse_button {
-    animation: transitionIn 0.7s;
-}
-
-@keyframes transition{
-    from{
-        opacity: 0;
-        transform: rotateX('-10deg');
-    }
-
-    to {
-        
-        opacity: 1;
-        transform: rotateX(0);
-    }
-}
 
 @media screen and (max-width: 940px) {
 
@@ -379,6 +375,7 @@ section div h4{
 @media (min-width: 768px) {
     nav .menu-btn{
         display: inline;
+        color: black;
         
     }
  }
