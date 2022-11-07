@@ -78,9 +78,9 @@ p{
     
 }
 
-#admin{
+#google{
     margin-top: 2%;
-    margin-left: 45%;
+    margin-left: 54%;
     width: 300px;
     height: 70px;
     border-radius: 0px;
@@ -102,13 +102,13 @@ a{
 
 h3{
     padding-top: 5%;
-    padding-left: 35%;
+    padding-left: 45%;
 }
-#admin a{
+#google a{
     color: black;
 }
 
-#admin:hover{
+#google:hover{
     box-shadow: 0px 15px 15px rgba(0, 0, 0, .2);
     transform: translateY(-2px);
     transition: 0.45;
