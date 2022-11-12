@@ -1,0 +1,272 @@
+
+     
+    .inventario{
+    font-family:"belleza" ;
+      font-style: "normal";
+    position: absolute;
+    left: 800px;
+    top: 80px;
+    font-size: 40px;
+       
+    }
+    .bordeinventario
+    {
+    position: absolute;
+    left:750px;
+    top: 160px;
+    width: 240px;
+    border: 1px solid #000000;
+    }
+      
+    .cajabusqueda p{
+    position: absolute;
+    width: 372px;
+    height: 30px;
+    left: 700px;
+    top: 170px;
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    }
+    
+    .cajalupa {
+        position: absolute;
+    box-sizing: border-box;
+    width: 170px;
+    height: 20px;
+    left: 900px;
+    top: 190px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;}
+    
+    
+    .bordecajalupa{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+    width: 1600px;
+    border: 1px solid #b1abab;
+    }
+    
+
+           
+    
+    .titulo
+    {position: absolute;
+        left:30px;
+    top: 240px;
+    font-size: 18px;
+    display: flex;width: 1240px;
+    flex-direction: row;
+    padding: 10px 25px;
+    gap: 75px;
+    width: 1600px;
+    align-self: stretch;
+    font-family: 'Poppins';
+    
+    }
+
+    
+.bordetitulo{
+position: absolute;
+left:30px;
+top: 290px;
+width: 1600px;
+border: 1px solid #776f6f;
+}
+
+    .linea1
+    {position: absolute;
+    left:30px;
+    top: 270px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+    gap: 98px;
+    width: 1600px;
+    align-self: stretch;
+    font-family: 'Poppins';
+    font-style: normal;
+    
+}
+
+.botonseleccionar
+{position: absolute;
+left: 480;
+bottom:-75;
+width: 150px;
+height: 30px;
+
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 34px;
+}
+.bordelinea1{
+position: absolute;
+left:1px;
+top: 55px;
+width: 1600px;
+border: 1px solid #776f6f;
+}
+.linea2
+{position: absolute;
+    left:1px;
+    top: 40px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+    gap: 95px;
+    width: 1600px;
+    align-self: stretch;
+    font-family: 'Poppins';
+    font-style: normal;
+    
+}
+
+.botonseleccionado
+{position: absolute;
+left: 480;
+color: #1B4332;
+bottom:-115;
+width: 150px;
+height: 30px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+}
+.bordelinea2{
+position: absolute;
+left:1px;
+top: 100px;
+width: 1600px;
+border: 1px solid #776f6f;
+}
+.titulo2
+{font-family:"belleza" ;
+      font-style: "normal";
+    position: absolute;
+    left: 690px;
+    top: 390px;
+    font-size: 13px;}
+
+    
+    .tituloseleccion
+    {position: absolute;
+    left:30px;
+    top: 420px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+    gap: 98px;
+    width: 1600px;
+    align-self: stretch;
+    font-family: 'Poppins';
+    font-style: normal;
+    
+}
+.bordetituloseleccion{
+position: absolute;
+left:1px;
+top:480px;
+width: 1600px;
+border: 1px solid #776f6f;
+}
+.linea4
+{position: absolute;
+    left:1px;
+    top: 470px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+    gap: 98px;
+    width: 1600px;
+    align-self: stretch;
+    font-family: 'Poppins';
+    font-style: normal;
+    
+}
+.mas
+{position:absolute;
+width: 20px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 825px;
+top: 500px;
+background: #F3F3F3;
+}
+
+.menos
+{position:absolute;
+width: 20px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 840px;
+top: 500px;
+background: #F3F3F3;
+}
+
+.actualizar{
+position:absolute;
+width: 120px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 1000px;
+top: 500px;
+}
+
+.borrar{
+position:absolute;
+width: 120px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 850px;
+top: 500px;;
+}
+
+.bordeline4{
+position: absolute;
+left:30px;
+top:500px;
+width: 1600px;
+border: 1px solid #776f6f;
+}
+
+.botonvolver
+{
+position: absolute;
+width: 100px;
+height: 30px;
+left: 800px;
+top: 600px;
+background: #007074;
+border-radius: 11px;
+color: #FFFFFF;
+}
+
+
+.botonSolicitar
+{
+position: absolute;
+width: 120px;
+height: 30px;
+left:1000px;
+top: 600px;
+background: #007074;
+border-radius: 11px;
+color: #FFFFFF;}
+
+
+  
