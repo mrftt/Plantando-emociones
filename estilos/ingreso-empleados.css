@@ -18,7 +18,7 @@ body{
     display: flex;
     width: 25%;
     height: 100vh;
-    background: url(/img/casa\ flores.svg);
+    background: url(../img/casa\ flores.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
