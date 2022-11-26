@@ -1,0 +1,356 @@
+
+     
+
+nav{
+    background: #FFFF;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position: fixed; /* Make it stick/fixed */
+    
+}
+.logo{
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+
+ .menu-btn{
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+#click{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+}
+
+nav ul li button{
+    height: 35px;
+    width: 120px;
+    border: 0cm;
+    border-radius: 6px;
+    margin-top: 35px;
+    
+}
+nav ul li img{
+    width: 23px;
+    height: 23px;
+    margin-top: 35px;
+}
+nav ul li img:hover{
+    transform: translateY(-2px);
+    transition: 0.45;
+}
+
+nav ul li p{
+    display: none;
+}
+
+
+#empleados_button{
+    background-color: white;
+   
+    
+}
+
+#registrarse_button{
+   background-color: #007074;
+   color: white;
+}
+
+nav ul li button:hover{
+    background-color: white;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, .2);
+    transform: translateY(-2px);
+    transition: 0.45;
+}
+
+       
+.contenedor
+{Background: #F3F3F3;}
+
+
+.inventario{
+font-family:"belleza" ;
+font-style: "normal";
+position: absolute;
+left: 800px;
+top: 80px;
+font-size: 40px;
+}
+
+
+.bordeinventario
+{
+position: absolute;
+left:750px;
+top: 160px;
+width: 240px;
+border: 1px solid #000000;
+}
+
+.cajabusqueda {
+position: absolute;
+width: 372px;
+height: 30px;
+left: 700px;
+top: 180px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.cajalupa {
+background-color:lightgray;
+  position: absolute;
+box-sizing: border-box;
+width: 190px;
+height: 20px;
+left: 880px;
+top: 190px;
+ border-radius: 5px;}
+
+
+.bordecajalupa{
+position: absolute;
+left: 290px;
+top: 230px;
+width: 1600px;
+border: 1px solid #D9D9D9;
+}
+
+
+     
+
+.titulo
+{position: absolute;
+  left:30px;
+top: 210px;
+font-size: 18px;
+display: flex;width: 1240px;
+flex-direction: row;
+padding: 10px 25px;
+gap: 160px;
+height: 30px;
+width: 1600px;
+align-self: stretch;
+font-family: 'Poppins';
+
+}
+
+
+.bordetitulo{
+position: absolute;
+left: 50px;
+top: 280px;
+width: 1600px;
+border: 1px solid #D9D9D9;
+}
+
+.linea1
+{position: absolute;
+left:50px;
+top: 270px;
+font-size: 18px;
+display: flex;
+flex-direction: row;
+padding: 10px 25px;
+gap: 220px;
+width: 1600px;
+align-self: stretch;
+font-family: 'Poppins';
+font-style: normal;
+
+}
+
+.botonseleccionar
+{position: absolute;
+left:1400px;
+width: 180px;
+height: 30px;
+border: 1px solid #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 34px;
+}
+.bordelinea1{
+position: absolute;
+left:1px;
+top: 55px;
+width: 1600px;
+border: 1px solid #D9D9D9;
+}
+.linea2
+{position: absolute;
+left:1px;
+top: 40px;
+font-size: 18px;
+display: flex;
+flex-direction: row;
+padding: 10px 25px;
+gap: 215px;
+width: 1600px;
+align-self: stretch;
+font-family: 'Poppins';
+font-style: normal;
+
+}
+
+.botonseleccionado
+{position: absolute;
+left: 1400px;
+color: #1B4332;
+width: 180px;
+height: 30px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+}
+.bordelinea2{
+position: absolute;
+left:1px;
+top: 100px;
+width: 1600px;
+border: 1px solid #D9D9D9;
+}
+.titulo2
+{font-family:"belleza" ;
+font-style: "normal";
+position: absolute;
+left: 690px;
+top: 390px;
+font-size: 13px;}
+
+
+.tituloseleccion
+{position: absolute;
+left:30px;
+top: 420px;
+font-size: 18px;
+display: flex;
+flex-direction: row;
+padding: 10px 25px;
+gap: 400px;
+width: 1600px;
+align-self: stretch;
+font-family: 'Poppins';
+font-style: normal;
+
+}
+.bordetituloseleccion{
+position: absolute;
+left:1px;
+top:480px;
+width: 1600px;
+border: 1px solid #D9D9D9;
+}
+.linea4
+{position: absolute;
+left:1px;
+top: 470px;
+font-size: 18px;
+display: flex;
+flex-direction: row;
+padding: 10px 25px;
+gap: 430px;
+width: 1600px;
+align-self: stretch;
+font-family: 'Poppins';
+font-style: normal;
+
+}
+.mas
+{position:absolute;
+width: 20px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 1080px;
+top: 500px;
+border: 1px solid #D9D9D9;
+}
+
+.menos
+{position:absolute;
+width: 20px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 1115px;
+top: 500px;
+background: #F3F3F3;
+}
+
+.actualizar{
+position:absolute;
+width: 150px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 1250px;
+top: 500px;
+}
+
+.borrar{
+position:absolute;
+width: 150px;
+height: 28px;
+background: rgba(82, 183, 136, 0.62);
+border-radius: 30px;
+left: 1420px;
+top: 500px;
+}
+
+.bordeline4{
+position: absolute;
+left:300px;
+top:500px;
+width: 1600px;
+border: 1px solid #776f6f;
+}
+
+.botonvolver
+{
+position: absolute;
+width: 170px;
+height: 35px;
+left: 1500px;
+top: 580px;
+background: #007074;
+border-radius: 11px;
+color: #FFFFFF;
+}
+
+.botonSolicitar
+{
+position: absolute;
+width: 170px;
+height: 35px;
+left:1300px;
+top: 580px;
+background: #007074;
+border-radius: 11px;
+color: #FFFFFF;}
+
+
