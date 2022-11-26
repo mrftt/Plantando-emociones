@@ -1,6 +1,4 @@
 
-     
-
 nav{
     background: #FFFF;
     height: 100px;
@@ -82,12 +80,13 @@ nav ul li button:hover{
     transition: 0.45;
 }
 
-       
+
+
 .contenedor
 {Background: #F3F3F3;}
 
 
-.inventario{
+.venta{
 font-family:"belleza" ;
 font-style: "normal";
 position: absolute;
@@ -97,12 +96,12 @@ font-size: 40px;
 }
 
 
-.bordeinventario
+.bordeventa
 {
 position: absolute;
 left:750px;
 top: 160px;
-width: 240px;
+width: 200px;
 border: 1px solid #000000;
 }
 
@@ -110,7 +109,7 @@ border: 1px solid #000000;
 position: absolute;
 width: 372px;
 height: 30px;
-left: 700px;
+left: 650px;
 top: 180px;
 font-family: 'Poppins';
 font-style: normal;
@@ -352,5 +351,3 @@ top: 580px;
 background: #007074;
 border-radius: 11px;
 color: #FFFFFF;}
-
-
