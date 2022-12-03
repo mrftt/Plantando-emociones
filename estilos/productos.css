@@ -110,6 +110,9 @@ html {
 
 main {
   height: 75vh;
+  margin-top: 2%;
+  width: 100%;
+
 }
 
 
@@ -208,12 +211,11 @@ body {
 }
 
 .container {
-
-  height: 100%;
+justify-content: center;  
+height: 100%;
   width: 100%;
-  max-width: 1200px;
   padding: 20px 0;
-
+  overflow: scroll;
   gap: 5px;
   display: flex;
 }
@@ -243,10 +245,93 @@ body {
   height: fit-content;
 }
 
-.logo-footer {
-  line-height: 100px;
-  padding: 0 83px 0;
+
+
+/*Header nav*/
+
+nav{
+  background: #FFFF;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  position: fixed; /* Make it stick/fixed */
+  
 }
+.logo{
+  margin-top: 25px;
+  margin-left: 40px;
+  height: 40px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 80px;
+}
+
+.menu-btn{
+  color:white;
+  font-size: 25px;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+#click{
+  display: none;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+}
+
+nav ul li button{
+  height: 35px;
+  width: 120px;
+  border: 0cm;
+  border-radius: 6px;
+  margin-top: 35px;
+  
+}
+nav ul li img{
+  width: 23px;
+  height: 23px;
+  margin-top: 35px;
+}
+nav ul li img:hover{
+  transform: translateY(-2px);
+  transition: 0.45;
+}
+
+nav ul li p{
+  display: none;
+}
+
+
+#empleados_button{
+  background-color: white;
+ 
+  
+}
+
+#registrarse_button{
+ background-color: #007074;
+ color: white;
+}
+
+nav ul li button:hover{
+  background-color: white;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, .2);
+  transform: translateY(-2px);
+  transition: 0.45;
+}
+
+
+
 
 /* Footer Maestro */
 
@@ -256,7 +341,7 @@ body {
     width: 100%;
     background: #F3F3F3;
     height: 18vh;
-    position: static;
+    position: fixed;
    
   }
 
@@ -277,7 +362,7 @@ body {
 .footer  ul li a{
     color: #838383;
     font-size: 15px;
-    padding: 90px;
+    padding: 70px;
     padding-top: 60px;
 }
 
@@ -323,11 +408,9 @@ overflow: hidden;
 }
 
 /* .btn-info{
-
 } */
 
 /* .btn-mas{
-
 } */
 
 /* .card{
@@ -336,7 +419,9 @@ overflow: hidden;
 
 
 .container .card {
+
   border-radius: 10px;
+  margin-top: 10%;
   min-height: 200px;
   font-weight: bold;
   padding: 20px;
@@ -353,3 +438,10 @@ overflow: hidden;
   list-style: none;
 
 }
+
+
+@media screen and (max-width: 1086px) {
+
+  
+  
+ }
