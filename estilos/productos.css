@@ -248,6 +248,43 @@ body {
   padding: 0 83px 0;
 }
 
+/* Footer Maestro */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #F3F3F3;
+    height: 18vh;
+    position: static;
+   
+  }
+
+
+
+.footer ul {
+
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.footer  ul li a{
+    color: #838383;
+    font-size: 15px;
+    padding: 90px;
+    padding-top: 60px;
+}
+
+.footer img{
+   line-height: 50px;
+}
+
 
 
 
