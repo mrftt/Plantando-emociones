@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* se quitan los estilos generales del navegador */
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+.menu-items {
+  display: flex; /* cada item aparece al lado del otro */
+
+  width: 100%; /* 100 ancho de la pantalla */
+  align-items: center; /*en vez de usar heigth line ya que todo esta display flex */
+  list-style: none;
+  justify-content: space-between;
+  padding: 2vh 3vw ; /* arriba y abajo cero porque align-items ya lo esta centrando, y 5 seria ajustarloa los lados*/
+
+}
+
+.div-foto{
+  border-radius: 10px;
+  min-height: 180px;
+  font-weight: bold;
+
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  width: 210px;
+  background-position: center center;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.contenedor-botones{
+  font-size: x-small;
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+}
+
+.carrito-boton{
+  width: 20%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #89af54;
+}
+
+.textos{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: small;
+
+  margin-bottom: 7px;
+  justify-content: space-between;
+}
+.textos-izquierda{
+  width: 50%;
+
+}
+.textos-derecha{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card-global{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  width: 210px;
+  gap:7px;
+}
+
+
+
+
+.foto-img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.menu-items-footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+main {
+  height: 75vh;
+}
+
+
+
+
+.texto-plantando{
+  font-family: 'Belleza', sans-serif;
+
+}
+
+.elemento-imagen{
+  display: block;
+  margin: 0 auto;
+  height: 50%;
+  max-width: 100%;
+  width: 20%;
+
+}
+
+
+.imagen-logo {
+  padding-left: 5px;
+  height: 4vh;
+
+}
+
+.nav-productos {
+  /* importante divide a la mitad desde donde aparecen productos */
+  padding-left: 50%;
+}
+.nav-productos a {
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+}
+.nav-productos-cerrar  {
+
+  font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+  background-color: #f3f3f3;
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); /* efecto de sombra*/
+
+  height: 9vh;
+}
+.contenedor-header {
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  width: 100%;
+  overflow: hidden; /* aun no es responsive, pero por lo menos ocultamos el overflow horizontal, "desborde" */
+}
+
+.contenedor-footer {
+  background-color: #f3f3f3;
+  height: 15vh;
+  bottom: 0;
+  display: flex;
+  position: fixed;
+
+  margin-top: 20px;
+  width: 100%;
+}
+
+.menu-items-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.cerrar-sesion-grupo{
+  display: flex;
+
+  align-items: center;
+}
+
+.site-map{
+  justify-content: center;
+}
+
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: 000;
+  font-family: "Quicksand", sans-serif;
+}
+.container-cards {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.container {
+
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 0;
+
+  gap: 5px;
+  display: flex;
+}
+
+.item-mapa {
+  padding-left: 20%;
+}
+
+.item-terminos {
+  padding-right: 20%;
+}
+
+.item-contactanos {
+  padding: 0 0px;
+}
+
+.banner {
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  background-size: cover;
+  background-position: center bottom;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: fit-content;
+}
+
+.logo-footer {
+  line-height: 100px;
+  padding: 0 83px 0;
+}
+
+
+
+
+
+.boton {
+  display: inline;
+  width: 50%;
+  height: auto;
+  background: #007074;
+  font-size: 12px;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 7px;
+  border: none;
+  border-radius: 90px;
+overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.banner .boton {
+  background: #007074;
+
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f3f3f3;
+  text-align: center;
+
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+
+  cursor: pointer;
+}
+
+/* .btn-info{
+
+} */
+
+/* .btn-mas{
+
+} */
+
+/* .card{
+  background-image: url('../img2/card3.jpg');
+} */
+
+
+.container .card {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  width: 200px;
+  background-position: center center;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner ul {
+  list-style: none;
+
+}
