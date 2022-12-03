@@ -37,6 +37,10 @@ html {
 
 }
 
+.div-productos{
+  mask-position: top;
+}
+
 .contenedor-botones{
   font-size: x-small;
   display: flex;
@@ -86,6 +90,12 @@ html {
   height: 100%;
   width: 100%;
 
+}
+
+.container-dos{
+  display: flex;
+  margin: 30px;
+  gap: 30px;
 }
 
 

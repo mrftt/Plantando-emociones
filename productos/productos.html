@@ -11,36 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
       rel="stylesheet"
     />
-    <script>
+    <script src="../productos/jsproductos.js">
 
-    var  cantidadComprados = 0;
-    var totalvalor=0;
-    function comprar(precio) {
-
-        cantidadComprados = cantidadComprados + 1;
-        totalvalor = totalvalor + precio;
-        // alert("Producto añadido, total en carrito: "+ cantidadComprados);
-        document.getElementById('resultado').innerHTML = cantidadComprados ;
-        document.getElementById('totalprecio').innerHTML = totalvalor ;
-
-
-
-
-    }
-    function vaciar(){
-
-
-      if(confirm("¿Deseas vaciar tu carrito?")){
-        cantidadComprados = 0;
-        totalvalor = 0;
-        alert("Carrito Vacio, elementos en carrito: " + cantidadComprados);
-        document.getElementById('resultado').innerText = 0;
-        document.getElementById('totalprecio').innerHTML = 0 ;
-      }
-
-
-
-    }
     </script>
     <title>Productos </title>
   </head>
@@ -74,6 +46,9 @@
           <li>
             <img src="../img2/logos/nav-carrito.png" alt="imagen-carrito" />
           </li>
+          <li>
+            <span id="cantidad-carro" >0</span>
+          </li>
         </ul>
       </div>
     </header>
@@ -95,7 +70,9 @@
             <h3 for="resultado" id="resultado" >0 </h3>
             <h3 style="display:inline-flex">Precio total: </h3>
             <h3 for="totalprecio" id="totalprecio">0</h3>
-            <button class="boton btn-info carrito-boton" type="reset" onclick="vaciar()">Vaciar Carrito</button>
+            <button class="boton btn-info carrito-boton" type="submit" onclick="mensaje()">Ir a pagar</button>
+            <br><br>
+            <button class="boton btn-info carrito-boton" type="reset" onclick="vaciar()" style="background-color: gray">Vaciar Carrito</button>
           </div>
         </div>
         <div class="container-cards">
@@ -124,7 +101,7 @@
                   Mas informacion
                 </a>
               </button>
-              <button class="boton btn-info" onclick="comprar(23000)" >
+              <button class="boton btn-info boton1" onclick="comprar(23000)" >
                 Comprar
               </button>
             </div>
