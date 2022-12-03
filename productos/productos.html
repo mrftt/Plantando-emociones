@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilos/productos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../productos/jsproductos.js">
+
+    </script>
+    <title>Productos </title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor-header">
+        <ul class="menu-items">
+          <li class="elemento-imagen">
+            <img
+              src="../img2/logos/logo-empresa_2.png"
+              alt="imagen-logo"
+              srcset=""
+              class="imagen-logo"
+            />
+          </li>
+          <li class="nav-productos"><a href="#">Productos</a></li>
+          <li>Pedidos</li>
+          <li class="logo-salida">
+            <div class="cerrar-sesion-grupo">
+              <img
+              src="../img2/logos/logo-salida.png"
+            />
+            <span>Cerrar Sesión</span>
+            </div>
+          </li>
+          <li class="">
+            <img src="../img2/logos/nav-buscar.png"
+          <li>
+            <img src="../img2/logos/nav-perfil.png" alt="imagen-perfil" />
+          </li>
+          <li>
+            <img src="../img2/logos/nav-carrito.png" alt="imagen-carrito" />
+          </li>
+          <li>
+            <span id="cantidad-carro" >0</span>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="banner">
+          <h3>Productos</h3>
+          <p>
+            Nuestros productos estan hecho con materiales de alta calidad que no
+            afectan el medio ambiente, incluyen sistemas inteligentes de riego y
+            son un hermoso detalle para obsequiar.
+          </p><br><br><br>
+          <label for="">Ver mas</label>
+          <span
+            ><img src="../img2/logos/boton-flecha.png" alt="imagen-flecha"
+          /></span><br><br><br>
+          <div class="div-productos">
+            <h3>Total en tu carrito:</h3>
+            <h3 for="resultado" id="resultado" >0 </h3>
+            <h3 style="display:inline-flex">Precio total: </h3>
+            <h3 for="totalprecio" id="totalprecio">0</h3>
+            <button class="boton btn-info carrito-boton" type="submit" onclick="mensaje()">Ir a pagar</button>
+            <br><br>
+            <button class="boton btn-info carrito-boton" type="reset" onclick="vaciar()" style="background-color: gray">Vaciar Carrito</button>
+          </div>
+        </div>
+        <div class="container-cards">
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card1.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Piedra lunar
+                </h3>
+                <p>
+                  Es propia de México.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $23000
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info boton1" onclick="comprar(23000)" >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card2.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Praeger
+                </h3>
+                <p>
+                  Propia de la isla de la Gomera.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $65400
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info" onclick="comprar(65400)" >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card3.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Cactus luna
+                </h3>
+                <p>
+                  De Paraguay y Argentina.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $23000
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info" onclick="comprar(23000)" >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card4.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Cactus piedra
+                </h3>
+                <p>
+                  Originarios de África.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $17450
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info" onclick="comprar(17450)" >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card5.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Kalanchoe
+                </h3>
+                <p>
+                  Flores de muchos tonos.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $54200
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info" onclick="comprar(54200)" >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card6.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Aloe vera
+                </h3>
+                <p>
+                  Propiedades medicinales.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $35200
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info" onclick="comprar(35200)" >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card7.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Corona de espinas
+                </h3>
+                <p>
+                  Muy estéticas y vistosas.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $19800
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info" onclick="comprar(19800)" >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div class="card-global">
+            <div class="div-foto">
+              <img class="foto-img" src="../img2/card8.jpg">
+            </div>
+            <div class="textos">
+              <div class="textos-izquierda">
+                <h3>
+                  Calandrina
+                </h3>
+                <p>
+                  De las más apreciadas plantas con flores rosas.
+                </p>
+              </div>
+              <div class="textos-derecha">
+                <h3>
+                  $7800
+                </h3>
+              </div>
+            </div>
+            <div class="contenedor-botones">
+              <button class="boton btn-mas ">
+                <a href="../productos/mas-informacion.html" class="" style="text-decoration:none;color:white">
+                  Mas informacion
+                </a>
+              </button>
+              <button class="boton btn-info" onclick="comprar(7800)" >
+                Añadir
+              </button>
+            </div>
+          </div>
+      </div>
+    </main>
+
+
+
+    <footer>
+      <div class="contenedor-footer">
+        <ul class="menu-items-footer">
+          <li>
+            <img
+              src="../img2/logos/logo-empresa.png"
+            /><strong>2022</strong>
+          </li>
+          <li class="item-mapa"><a href="../otros-sitios/site-map.html">Mapa del Sitio</a></li>
+          <li class="item-contactanos"><a href="#">Contáctanos</a></li>
+          <li class="">
+            <a clas="item-terminos" href="#">Terminos de Uso y privacidad</a>
+          </li>
+          <li>
+            <img src="../img2/logos/logo-facebook.png"  />
+          </li>
+          <li>
+            <img src="../img2/logos/logo-twitter.png" />
+          </li>
+          <li>
+            <img src="../img2/logos/logo-instagram.png"  />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
